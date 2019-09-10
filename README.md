@@ -1,10 +1,17 @@
 ##logo image is from CoolCLIPS media
 ## https://www.coolclips.com/
 
-Views
+##Views
+##Main Page
 <img src="src/images/mainScreen.png"
      alt="main page"
      style="float: left; margin-right: 10px;" />
+     
+##Bookmarks    
+<img src="src/images/NewsUpdateReact.png"
+     alt="main page"
+     style="float: left; margin-right: 10px;" />
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
