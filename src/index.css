@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +10,146 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background-color: white;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.mainBox{
+ border-top: 1px solid gray;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 700px; */
+  max-width: 1230px;
+  margin:3px auto;
+}
+.box{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 240px;
+  height: 300px;
+  /* border-right:1px solid #262161d9; */
+  /* border-bottom:1px solid #262161d9; */
+  box-shadow:5px 8px #8888887a;
+  /* box-shadow:5px 8px #26216152; */
+  border-radius:1px;
+  margin:20px;
+  color:white;
+  font-size: 12px; 
+}
+.box:hover{
+  box-shadow:5px 8px  #262161d9;
+}
+/* top part of the box */
+.cover{
+  width:100%;
+  height:250px;
+  background-color: #c0c0c021;
+  padding: 5px 10px; 
+}
+.storyHeading{
+  color:#262161d9;
+  letter-spacing: 2px;
+  max-width:87%;
+  font-size:16px;
+}
+.storyHeading:hover{
+  text-decoration:none;
+  color:#17143d;
+}
+.imgBookmark{
+  width:40px;
+  height:40px;
+}
+.Navigation{
+  max-width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  min-height: 150px;
+  border-bottom: 1px solid gray;
+  color: black;
+  background-color: white;
+}
+
+.nav-links{
+  margin-left:-40px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style:none;
+  color: #5f626e;
+}
+.nav-links a{
+  color: #262161;
+}
+.leftNav{
+  margin-left:40px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logoImage{
+  width:auto;
+  height:100px;
+}
+@media screen and (max-width:767px){
+ .mainBox{
+   justify-content: flex-start;
+   flex-wrap:wrap;
+ }
+}
+.test{
+  display:none;
+}
+.logo{
+  margin-left: 30px;
+  width: 250px;
+}
+.logo-text{
+  color: #463d3d;
+  font-size:24px;
+  letter-spacing: 1px;
+}
+
+.storyAuthor,.storyScore{
+  color: grey;
+  letter-spacing: 2px;
+}
+.details{
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-between;
+}
+.detail{
+  margin-right: 35px;
+}
+button{
+  border: none;
+  background-color: white;
+}
+.bookmarked{
+  border-right:1px solid #ef4d50;
+  border-bottom:1px solid #ef4d50;
+  box-shadow:3px 4px #ef4d50;
+}
+.bookmarked:hover{
+  border-right:1px solid #ec2f34;
+  border-bottom:1px solid #ec2f34;
+  box-shadow:5px 8px #ec2f34 ;
+}
+.bookmarks{
+  justify-content: flex-start;
+  flex-wrap:wrap;
 }
