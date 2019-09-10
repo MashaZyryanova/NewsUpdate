@@ -2,6 +2,9 @@
 ## https://www.coolclips.com/
 
 Views
+<img src="images/mainScreen.png"
+     alt="main page"
+     style="float: left; margin-right: 10px;" />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
